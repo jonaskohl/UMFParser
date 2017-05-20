@@ -24,5 +24,5 @@ The whitespace inbetween does not matter.
     array<string> "NameOfStringArray" ("test1", "test2", "test3")
     array<boolean> "NameOfBoolArray" (true, false, false, true)
 
-## Parse & buld
-You can create these files using the included PHP library `UMFParse.php`. See the `examples\` directory for usage.
+## Parse & build
+You can create or read these files using the included PHP library `UMFParse.php`. See the `examples\` directory for usage.
