@@ -2,7 +2,7 @@
 A parser of my own UMF file format.
 
 ## What is UMF?
-UMF stands for __U__niversal __M__anifest __F__ormat. It is a manifest and settings file format with type declaration.  
+UMF stands for **U**niversal **M**anifest **F**ormat. It is a manifest and settings file format with type declaration.  
 Sample file:
 
     #!%UMF File Format 1.0
