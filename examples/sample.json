@@ -1,0 +1,20 @@
+{
+    "TestString": "TestString value",
+    "TestNumber": 42,
+    "TestBoolean": true,
+    "TestStringArr": [
+        "string1",
+        "string2",
+        "string3"
+    ],
+    "TestNumberArr": [
+        0,
+        1,
+        2,
+        3
+    ],
+    "TestBoolArray": [
+        true,
+        false
+    ]
+}

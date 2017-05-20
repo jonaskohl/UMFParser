@@ -1,1 +1,10 @@
+#!%UMF File Format 1.0
 
+# Comment
+
+string		"TestString"	"TestString value"
+number		"TestNumber"	42
+boolean		"TestBoolean"	true
+array<string>	"TestStringArr"	("string1", "string2", "string3")
+array<number>	"TestNumberArr"	(0, 1, 2, 3)
+array<boolean>	"TestBoolArray"	(true, false)
