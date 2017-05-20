@@ -18,8 +18,11 @@ Sample file:
 The whitespace inbetween does not matter.
 ### All available types
     string "NameOfString" "Value"
-    number "NameOfNumber" 1.5
+    number "NameOfNumber" 4
     boolean "NameOfBoolean" true
     array<number> "NameOfNumberArray" (0, 1, 2)
     array<string> "NameOfStringArray" ("test1", "test2", "test3")
     array<boolean> "NameOfBoolArray" (true, false, false, true)
+
+## Parse & buld
+You can create these files using the included PHP library `UMFParse.php`. See the `examples\` directory for usage.
