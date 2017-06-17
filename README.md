@@ -5,8 +5,7 @@ A parser of my own UMF file format.
 UMF stands for **U**niversal **M**anifest **F**ormat. It is a manifest and settings file format with type declaration.  
 Sample file:
 
-<pre><code>
-<span class="code-comment">#!%UMF File Format 1.0</span>
+<pre><code><span class="code-comment">#!%UMF File Format 1.0</span>
 
 <span class="code-comment"># This is a sample file</span>
 
@@ -20,8 +19,7 @@ Sample file:
 The whitespace inbetween does not matter.
 ### All available types
 
-<pre><code>
-<span class="code-comment"># This is a comment</span>
+<pre><code><span class="code-comment"># This is a comment</span>
 <span class="code-keyword">string</span> <span class="code-string">"NameOfString"</span> <span class="code-string">"Value"</span>
 <span class="code-keyword">number</span> <span class="code-string">"NameOfNumber"</span> 4.02
 <span class="code-keyword">boolean</span> <span class="code-string">"NameOfBoolean"</span> true
