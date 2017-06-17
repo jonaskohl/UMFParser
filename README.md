@@ -17,12 +17,13 @@ Sample file:
 
 The whitespace inbetween does not matter.
 ### All available types
+    # This is a comment
     string "NameOfString" "Value"
-    number "NameOfNumber" 4
+    number "NameOfNumber" 4.02
     boolean "NameOfBoolean" true
     array<number> "NameOfNumberArray" (0, 1, 2)
     array<string> "NameOfStringArray" ("test1", "test2", "test3")
     array<boolean> "NameOfBoolArray" (true, false, false, true)
 
 ## Parse & build
-You can create or read these files using the included PHP library `UMFParse.php`. See the `examples\` directory for usage.
+You can create or read these files using the included PHP library `UMFParse.php`. See the `examples/` directory for usage.
